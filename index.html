@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | [Blogr]</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css-reset/reset.css">
+  <script src="index.js" defer></script>
+
+</head>
+<body>
+  <header>
+    <div class="header_container">
+      <div class="container">
+        <nav>
+          <div class="flex_wrap">
+            <a href="index.html"><img src="images/logo.svg" alt="Logo"></a>
+            
+            <button class="button_nav" aria-expanded="false"></button>
+          </div>
+
+          <div class="nav_group">
+            <div class="box_shadow">
+              <ul class="primary_nav" aria-hidden="true">
+                <li>
+                  <button aria-expanded="false" class="nav_button1">Product <div class="icon_arrow"></div></button>
+                  <div class="links1" aria-hidden="true">
+                    <a href="#">Overview</a>
+                    <a href="#">Pricing</a>
+                    <a href="#">Marketplace</a>
+                    <a href="#">Features</a>
+                    <a href="#">Integrations</a>
+                  </div>
+                </li>
+                <li>
+                  <button aria-expanded="false" class="nav_button2">Company <div class="icon_arrow"></div></button>
+                  <div class="links2" aria-hidden="true">
+                    <a href="#">About</a>
+                    <a href="#">Team</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Careers</a>
+                  </div>
+                </li>
+                <li>
+                  <button aria-expanded="false" class="nav_button3">Connect <div class="icon_arrow"></div></button>
+                  <div class="links3" aria-hidden="true">
+                    <a href="#">Contact</a>
+                    <a href="#">Newsletter</a>
+                    <a href="#">LinkedIn</a>
+                  </div>
+                </li>
+              
+              </ul>
+              <div class="LogIn_SignUp">
+                <hr aria-hidden="true">
+                <div>
+                  <button>Login</button>
+                </div>
+                <div>
+                  <a href="#">Sign Up</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <button class="invisible" aria-hidden="true"></button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero_module">
+      <div class="hero_expanded">
+        <div class="container">
+          <h1>A modern publishing platform</h1>
+          <p>Grow your audience and build your online brand</p>
+        
+          <div class="flex_wrap">
+            <div><a href="#">Start for Free</a></div>
+            <div><a href="#">Learn More</a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="designed_module">
+      <div class="container">
+        <h2>Designed for the future</h2>
+        <div class="grid_area">
+          <div class="text_area">
+            <h3>Introducing an extensible editor</h3>
+            <p>
+              Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content.
+              The editor supports management of multiple blogs and allows easy manipulation of embeds such as images,
+              videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or
+              change the looks of a blog.
+            </p>
+            <h3>Robust content management</h3>
+            <p>
+              Flexible content management enables users to easily move through posts. Increase the usability of your blog
+              by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.
+            </p>
+          </div>
+          <div class="image_area">
+            <picture>
+              <source srcset="images/illustration-editor-mobile.svg" media="(max-width: 800px)">
+              <img src="images/illustration-editor-desktop.svg" aria-hidden="true" alt="">
+            </picture>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="state_module">
+      <div class="container relative">
+        <img class="phones" src="images/illustration-phones.svg" aria-hidden="true" alt="">
+      </div>
+      <div class="illustrator_expanded">
+        <div class="container">
+          <div class="flex_wrap">
+            <div class="img_area">
+              <img class="bg_cirlces" src="images/bg-pattern-circles.svg" aria-hidden="true" alt="">
+              <!-- <img src="images/illustration-phones.svg" alt="" aria-hidden="true" class="phones2"> -->
+            </div>
+
+            <div class="text_area">
+              <h2>State of the Art Infrastructure</h2>
+              <p>
+                With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity.
+                This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="free_open_module">
+      <div class="container">
+        <div class="grid_wrap">
+          <div class="image_area">
+            <picture>
+              <source srcset="images/illustration-laptop-mobile.svg" media="(max-width: 800px)">
+              <img src="images/illustration-laptop-desktop.svg" aria-hidden="true" alt="">
+            </picture>
+          </div>
+          <div class="text_area">
+            <h3>Free, open, simple</h3>
+            <p>
+              Blogr is a free and open source application backed by a large community of helpful developers. It supports
+              features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools,
+              and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.
+            </p>
+          
+            <h3>Powerful tooling</h3>
+            <p>
+              Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but capable of producing even the most complicated sites.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="flex_wrap">
+        <div class="logo">
+          <a href="index.html"><img src="images/logo.svg" alt="Logo Footer"></a>
+        </div>
+        
+        <div class="nav">
+          <div class="product">
+            <h4>Product</h4>
+            <a href="#">Overview</a>
+            <a href="#">Pricing</a>
+            <a href="#">Marketplace</a>
+            <a href="#">Features</a>
+            <a href="#">Integrations</a>
+          </div>
+          <div class="company">
+            <h4>Company</h4>
+            <a href="#">About</a>
+            <a href="#">Team</a>
+            <a href="#">Blog</a>
+            <a href="#">Careers</a>
+          </div>
+          <div class="connect">
+            <h4>Connect</h4>
+            <a href="#">Contact</a>
+            <a href="#">Newsletter</a>
+            <a href="#">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+      <div class="attribution"> 
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="https://www.frontendmentor.io/profile/johnmaizo" target="_blank">John Robert Maizo</a>.
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
