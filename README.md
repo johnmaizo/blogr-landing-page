@@ -25,7 +25,7 @@ This is a solution to the [Blogr landing page challenge on Frontend Mentor](http
 
 <h2 align="center">Links</h2>
 
-- Solution URL: [Blogr landing page using HTML and CSS | Frontend Mentor](https://www.frontendmentor.io/solutions/clipboard-landing-page-x65sxK2t1i)
+- Solution URL: [Blogr landing page using HTML and CSS | Frontend Mentor](https://www.frontendmentor.io/solutions/blogr-landing-page-using-html-and-css-8uRrMskjDf)
 - Live Site URL: [https://blogr-landing-page-johnmaizo.netlify.app/](https://blogr-landing-page-johnmaizo.netlify.app/)
 
 <br>
